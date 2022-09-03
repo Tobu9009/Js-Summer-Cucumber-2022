@@ -17,5 +17,5 @@ Feature: Homework 6
         And I click submit button
         When I verify going to location contains "Manila"
         When I verify check-in date is tomorrows date
-        When I verify check-out date is 5 days from tomorrow
+        Then I verify check-out date is 5 days from tomorrow
 
