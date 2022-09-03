@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662178696531' stop='1662178701396'>
+    <name>Homework 6: Verify past dates of the current month is not enabled</name>
+    <title>Homework 6: Verify past dates of the current month is not enabled</title>
+    <test-cases>
+        <test-case start='1662178696532' status='passed' stop='1662178696533'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662178696533' status='passed' stop='1662178699253'>
+            <name>Given I am on hotels landing page</name>
+            <title>Given I am on hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662178696535' status='passed' stop='1662178699252'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f1a25532-9941-4650-aaea-ff976af99bc9-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662178699253' status='passed' stop='1662178701363'>
+            <name>When I click on date form</name>
+            <title>When I click on date form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662178699254' status='passed' stop='1662178699268'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='89beb53b-f646-4079-9961-bfa21ae81585-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='aba5ab7e-8a2a-4f68-b7a0-56397cee0162-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662178699274' status='passed' stop='1662178699357'>
+                    <name>POST /session/:sessionId/element/33becf9a-0c4c-473d-b066-b8a8e83800ba/click</name>
+                    <title>POST /session/:sessionId/element/33becf9a-0c4c-473d-b066-b8a8e83800ba/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662178701363' status='passed' stop='1662178701395'>
+            <name>Then I verify that past dates of current month is not enabled</name>
+            <title>Then I verify that past dates of current month is not enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662178701366' status='passed' stop='1662178701382'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d274b126-9fd5-441f-b024-a116d8e6cc63-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='f71eb7cb-4bf4-4d82-af67-40f882032d4f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662178701386' status='passed' stop='1662178701394'>
+                    <name>GET /session/:sessionId/element/1eec7b2e-b435-4922-b05f-f5b38ab05595/enabled</name>
+                    <title>GET /session/:sessionId/element/1eec7b2e-b435-4922-b05f-f5b38ab05595/enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662178701395' status='passed' stop='1662178701396'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

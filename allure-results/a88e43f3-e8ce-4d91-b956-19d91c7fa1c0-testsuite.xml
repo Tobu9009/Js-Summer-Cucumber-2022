@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662181675482' stop='1662181681925'>
+    <name>Homework 6: Verify destination and check-in and check-out dates are as user selected</name>
+    <title>Homework 6: Verify destination and check-in and check-out dates are as user selected</title>
+    <test-cases>
+        <test-case start='1662181675482' status='passed' stop='1662181675483'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662181675484' status='passed' stop='1662181677760'>
+            <name>Given I am on hotels landing page</name>
+            <title>Given I am on hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662181675485' status='passed' stop='1662181677759'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='520a5543-a4ae-4816-bdcb-d54f343e7b6f-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662181677760' status='passed' stop='1662181679837'>
+            <name>When I click going to</name>
+            <title>When I click going to</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662181677761' status='passed' stop='1662181677774'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c14d2f18-5b32-4262-9080-200da6d15f3d-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='a50b92c2-8463-4fd0-8fec-e82a06fbf1b9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662181677779' status='passed' stop='1662181677829'>
+                    <name>POST /session/:sessionId/element/bd57f358-4a07-47b3-a1e5-66219c91440b/click</name>
+                    <title>POST /session/:sessionId/element/bd57f358-4a07-47b3-a1e5-66219c91440b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662181679837' status='passed' stop='1662181681922'>
+            <name>When I enter "man" in going to</name>
+            <title>When I enter "man" in going to</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662181679838' status='passed' stop='1662181679850'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f2535b47-7b6e-4322-a93e-9033c2afdeea-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='1f459077-9583-46d4-8204-ef656631d7c2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662181679852' status='passed' stop='1662181679875'>
+                    <name>POST /session/:sessionId/element/cfdc7658-7378-4259-9bfd-3f75874ee729/clear</name>
+                    <title>POST /session/:sessionId/element/cfdc7658-7378-4259-9bfd-3f75874ee729/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662181679878' status='passed' stop='1662181679917'>
+                    <name>POST /session/:sessionId/element/cfdc7658-7378-4259-9bfd-3f75874ee729/value</name>
+                    <title>POST /session/:sessionId/element/cfdc7658-7378-4259-9bfd-3f75874ee729/value</title>
+                    <attachments>
+                        <attachment title='Request' source='36ed6e82-7726-4bcc-ab2a-10ee81f9c4d0-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662181681922' status='broken' stop='1662181681924'>
+            <name>And I select "MANHATTAN" from auto-suggestion</name>
+            <title>And I select "MANHATTAN" from auto-suggestion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: this.commands.selectFromAutoSuggestions is not a function</message>
+                <stack-trace>TypeError: this.commands.selectFromAutoSuggestions is not a function
+                    at hotelsPOM.selectDestinationFromAutoSuggestion (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\Pages\Hotels\homework6Functions.js:117:29)
+                    at World.&lt;anonymous> (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\step-definitions\Hotels\homework6SD.js:62:15)
+                    at World.executeAsync (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at World.testFrameworkFnWrapper (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at async wrapPromiseWithTimeout (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\time.js:67:12)
+                    at async Object.run (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:26)
+                    at async TestCaseRunner.invokeStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:237:26)
+                    at async C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:163:48</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662181681924' status='passed' stop='1662181681925'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

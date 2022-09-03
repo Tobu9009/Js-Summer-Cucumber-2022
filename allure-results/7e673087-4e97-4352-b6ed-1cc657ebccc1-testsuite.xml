@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662168282300' stop='1662168283347'>
+    <name>Login: Verify login fields are enabled by default</name>
+    <title>Login: Verify login fields are enabled by default</title>
+    <test-cases>
+        <test-case start='1662168282300' status='passed' stop='1662168282302'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662168282302' status='passed' stop='1662168283263'>
+            <name>Given I am on facebook landing page</name>
+            <title>Given I am on facebook landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662168282304' status='passed' stop='1662168283262'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='162ae61d-5cba-4b0e-9ce5-0b8ec6352bf0-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662168283263' status='passed' stop='1662168283294'>
+            <name>Then I verify login username field is enabled</name>
+            <title>Then I verify login username field is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662168283266' status='passed' stop='1662168283279'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='72e2aac8-1c29-4ff2-bc25-c262f387fc2c-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='9aa952a3-9658-4fe2-87c4-854670cc77ca-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662168283284' status='passed' stop='1662168283293'>
+                    <name>GET /session/:sessionId/element/f4d17dbc-4e5e-4657-8f6b-116e5a8be37a/enabled</name>
+                    <title>GET /session/:sessionId/element/f4d17dbc-4e5e-4657-8f6b-116e5a8be37a/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='fe0bab76-7f6d-4cf2-b6ef-cb46a6d88baf-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662168283294' status='passed' stop='1662168283321'>
+            <name>And I verify login password field is enabled</name>
+            <title>And I verify login password field is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662168283295' status='passed' stop='1662168283309'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b9a25b13-381d-4627-a95c-708cf9be7f5e-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='7ddd549b-e4cc-48ee-b541-f4e571b92103-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662168283312' status='passed' stop='1662168283320'>
+                    <name>GET /session/:sessionId/element/d45a2948-5f00-4880-b3c7-392583d0d082/enabled</name>
+                    <title>GET /session/:sessionId/element/d45a2948-5f00-4880-b3c7-392583d0d082/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='f9392a83-d967-4057-82f8-2f331731465a-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662168283321' status='passed' stop='1662168283346'>
+            <name>And I verify login button field is enabled</name>
+            <title>And I verify login button field is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662168283322' status='passed' stop='1662168283334'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='20578f35-ad07-48eb-8335-ae5902267e03-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='6d8567cf-ede8-45b9-afa4-a34a6b071e53-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662168283336' status='passed' stop='1662168283346'>
+                    <name>GET /session/:sessionId/element/2dfc80cd-cf70-43c7-8585-8d74cb92ddfc/enabled</name>
+                    <title>GET /session/:sessionId/element/2dfc80cd-cf70-43c7-8585-8d74cb92ddfc/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='0efc088d-76bf-41d1-9fdb-015640e429b0-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662168283346' status='passed' stop='1662168283347'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

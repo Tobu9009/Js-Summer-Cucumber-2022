@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662177745286' stop='1662177749783'>
+    <name>Homework 6: Verify past dates of the current month is not enabled</name>
+    <title>Homework 6: Verify past dates of the current month is not enabled</title>
+    <test-cases>
+        <test-case start='1662177745286' status='passed' stop='1662177745287'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662177745288' status='passed' stop='1662177747622'>
+            <name>Given I am on hotels landing page</name>
+            <title>Given I am on hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662177745289' status='passed' stop='1662177747621'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5b9b9c58-3c64-48e8-8471-860c143badec-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662177747622' status='passed' stop='1662177749747'>
+            <name>When I click on date form</name>
+            <title>When I click on date form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662177747624' status='passed' stop='1662177747636'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='024ce579-0146-4454-9b9b-fa32b5562e5c-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='3baae4c2-ac52-41a0-a725-4a83ed8211dc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662177747641' status='passed' stop='1662177747737'>
+                    <name>POST /session/:sessionId/element/60b54685-1854-42c9-a53d-2c3f10d785d7/click</name>
+                    <title>POST /session/:sessionId/element/60b54685-1854-42c9-a53d-2c3f10d785d7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662177749747' status='failed' stop='1662177749783'>
+            <name>Then I verify that past dates of current month is not enabled</name>
+            <title>Then I verify that past dates of current month is not enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps>
+                <step start='1662177749755' status='passed' stop='1662177749768'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='40a9d689-117b-4c3e-a949-231b606f9cbb-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='25f48d98-4d14-4b10-b698-902230b49ef0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662177749771' status='passed' stop='1662177749778'>
+                    <name>GET /session/:sessionId/element/b224292f-581e-402e-bd22-3f323b38a6d6/enabled</name>
+                    <title>GET /session/:sessionId/element/b224292f-581e-402e-bd22-3f323b38a6d6/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='77e7bf1c-31a0-4f37-bb49-1d402bca346c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>AssertionError: it is enabled: expected true to be false</message>
+                <stack-trace>AssertionError: it is enabled: expected true to be false
+                    + expected - actual
+                
+                    -true
+                    +false
+                
+                    at World.&lt;anonymous> (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\step-definitions\Hotels\homework6SD.js:48:71)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662177749783' status='passed' stop='1662177749783'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.53'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
