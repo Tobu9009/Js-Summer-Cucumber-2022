@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//header[@class=\"page__header d-none d-lg-block\"]//div[@class=\"search-result-item\"]"
+}

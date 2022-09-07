@@ -1,1 +1,0 @@
-Feature: Weather on Landing Page

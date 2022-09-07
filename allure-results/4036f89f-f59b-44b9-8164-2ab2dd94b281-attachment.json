@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//tp-yt-paper-button[@id=\"expand\"]"
+}

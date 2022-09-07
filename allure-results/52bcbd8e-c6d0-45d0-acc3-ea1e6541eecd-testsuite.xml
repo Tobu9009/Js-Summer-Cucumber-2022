@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662576452637' stop='1662576457460'>
+    <name>Go on youtube and twitch: Twitch</name>
+    <title>Go on youtube and twitch: Twitch</title>
+    <test-cases>
+        <test-case start='1662576452638' status='passed' stop='1662576452639'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662576452639' status='passed' stop='1662576455051'>
+            <name>Given I am on youtube</name>
+            <title>Given I am on youtube</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662576452641' status='passed' stop='1662576455050'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f9be6c00-db20-4208-b3a5-2f603e63ccc4-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662576455051' status='passed' stop='1662576455227'>
+            <name>And I type "doug doug peggle" in youtube search bar</name>
+            <title>And I type "doug doug peggle" in youtube search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662576455053' status='passed' stop='1662576455126'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22dd75e8-3d37-4649-8879-0a274bfa1fa7-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='c4745120-35ba-416f-8fb1-1eae840360d1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662576455132' status='passed' stop='1662576455160'>
+                    <name>POST /session/:sessionId/element/4e813846-d31f-4571-a92c-7b03b3ea55a8/clear</name>
+                    <title>POST /session/:sessionId/element/4e813846-d31f-4571-a92c-7b03b3ea55a8/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662576455165' status='passed' stop='1662576455227'>
+                    <name>POST /session/:sessionId/element/4e813846-d31f-4571-a92c-7b03b3ea55a8/value</name>
+                    <title>POST /session/:sessionId/element/4e813846-d31f-4571-a92c-7b03b3ea55a8/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1a7f03f3-343d-40e8-82ed-f60fb99c51aa-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662576455227' status='passed' stop='1662576457459'>
+            <name>And I click on youtube search button</name>
+            <title>And I click on youtube search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662576455228' status='passed' stop='1662576455269'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6194400-05eb-4fe8-9ffa-704300a95a6d-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='8fbf84df-7f1b-4cc8-8412-1aeee96b9f05-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662576455272' status='passed' stop='1662576455455'>
+                    <name>POST /session/:sessionId/element/7a541b35-cc38-4fa9-b1e6-4bf2a824ba84/click</name>
+                    <title>POST /session/:sessionId/element/7a541b35-cc38-4fa9-b1e6-4bf2a824ba84/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662576457459' status='passed' stop='1662576457460'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
