@@ -13,7 +13,7 @@ When(/^I click on search button$/, async function(){
     await coolMathObj.clickSearchBar();
 })
 
-When(/^I type "(.+)" in search bar$/, async function(value){
+When(/^I type "(.+)" in coolmathgames search bar$/, async function(value){
     await coolMathObj.typeInSearchBar(value)
     await browser.pause(2000);
 })

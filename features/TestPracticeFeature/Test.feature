@@ -1,3 +1,4 @@
 @test1
 Feature: Test Problems
-    Scenario: 
+    Scenario: Test
+    Given I am on amazon landing page

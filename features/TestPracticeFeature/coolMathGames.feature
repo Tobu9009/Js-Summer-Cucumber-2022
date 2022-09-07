@@ -12,7 +12,7 @@ Feature: Cool Math Games
     Scenario: Verify coolMathGamesDisplays all 26 options after typing ace in search
     Given I am on cool math games
     When I click on search button
-    And I type "ace" in search bar
+    And I type "ace" in coolmathgames search bar
     And I verify 26 options are available
     Then I click flip palace
 

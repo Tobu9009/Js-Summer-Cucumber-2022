@@ -47,7 +47,6 @@ class YtTwitch{
             }
         }
     }
-
     async returnSep30(){
 
     }

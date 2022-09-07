@@ -26,17 +26,17 @@ const loginpage = new Loginpage();
 //     }
 // });
 
-Then(/^I verify login username field is enabled$/, async function() {
-    expect(await homepage.isLoginEmailFieldEnabled(), 'Login email field is NOT enabled').to.be.true;
-});
+// Then(/^I verify login username field is enabled$/, async function() {
+//     expect(await homepage.isLoginEmailFieldEnabled(), 'Login email field is NOT enabled').to.be.true;
+// });
 
-Then(/^I verify login password field is enabled$/, async function() {
-    expect(await homepage.isLoginPwdFieldEnabled(), 'Login password field is NOT enabled').to.be.true;
-});
+// Then(/^I verify login password field is enabled$/, async function() {
+//     expect(await homepage.isLoginPwdFieldEnabled(), 'Login password field is NOT enabled').to.be.true;
+// });
 
-Then(/^I verify login button field is enabled$/, async function() {
-    expect(await homepage.isLoginBtnEnabled(), 'Login button is NOT enabled').to.be.true;
-});
+// Then(/^I verify login button field is enabled$/, async function() {
+//     expect(await homepage.isLoginBtnEnabled(), 'Login button is NOT enabled').to.be.true;
+// });
 
 // When(/^I enter "(.+)" as username$/, async function(username) {
 //     await homepage.enterLoginEmail(username);
