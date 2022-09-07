@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662450562893' stop='1662450567648'>
+    <name>Cool Math Games: Verify coolMathGamesDisplays all 26 options after typing ace in search</name>
+    <title>Cool Math Games: Verify coolMathGamesDisplays all 26 options after typing ace in search</title>
+    <test-cases>
+        <test-case start='1662450562893' status='passed' stop='1662450562894'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662450562894' status='passed' stop='1662450565419'>
+            <name>Given I am on cool math games</name>
+            <title>Given I am on cool math games</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662450562896' status='passed' stop='1662450563271'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='27922b54-ac53-47a2-a22e-62dc9f12a630-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662450563271' status='passed' stop='1662450563416'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='9c3b78e3-272e-4f02-96a6-26a2080df664-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='156608ed-65eb-4006-9704-03689032e022-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662450565419' status='passed' stop='1662450565507'>
+            <name>When I click on search button</name>
+            <title>When I click on search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662450565420' status='passed' stop='1662450565440'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='95932425-5caa-4320-90e3-86d88e9078b4-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='2a248faf-8847-4cc7-b1d0-5c1412c1136c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662450565445' status='passed' stop='1662450565507'>
+                    <name>POST /session/:sessionId/element/12b152d1-192e-4a27-8e20-018597717174/click</name>
+                    <title>POST /session/:sessionId/element/12b152d1-192e-4a27-8e20-018597717174/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662450565507' status='passed' stop='1662450567599'>
+            <name>When I type "ace" in search bar</name>
+            <title>When I type "ace" in search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662450565508' status='passed' stop='1662450565523'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='12da4448-e327-40f4-a222-dd7ec1e367fd-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='fcc2a143-6ed8-4286-a14f-875d83ec01ae-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662450565526' status='passed' stop='1662450565549'>
+                    <name>POST /session/:sessionId/element/c31ad670-b857-4003-8e23-9d669b5d9513/clear</name>
+                    <title>POST /session/:sessionId/element/c31ad670-b857-4003-8e23-9d669b5d9513/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662450565552' status='passed' stop='1662450565585'>
+                    <name>POST /session/:sessionId/element/c31ad670-b857-4003-8e23-9d669b5d9513/value</name>
+                    <title>POST /session/:sessionId/element/c31ad670-b857-4003-8e23-9d669b5d9513/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f9cc1fdf-d246-4a45-bc7b-a37a049d3a07-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662450567599' status='failed' stop='1662450567647'>
+            <name>When I verify 26 options are available</name>
+            <title>When I verify 26 options are available</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662450567600' status='passed' stop='1662450567615'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7bb476f5-ce6d-416e-98a8-62960a0bc22a-attachment.json' type='application/json' size='124'/>
+                        <attachment title='Response' source='b734626c-edbb-41b5-b5e8-1f2fa0810b3c-attachment.json' type='application/json' size='2368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662450567634' status='passed' stop='1662450567643'>
+                    <name>GET /session/:sessionId/element/98a43b35-6982-4be2-8fa9-73b104aa1163/enabled</name>
+                    <title>GET /session/:sessionId/element/98a43b35-6982-4be2-8fa9-73b104aa1163/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='08351394-b51c-497b-8a46-74de82a9c202-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>AssertionError: 26 options are not verified: expected undefined to be true</message>
+                <stack-trace>AssertionError: 26 options are not verified: expected undefined to be true
+                    at World.&lt;anonymous> (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\step-definitions\TestPracticeSD\coolMathGamesSD.js:22:78)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662450567647' status='passed' stop='1662450567647'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

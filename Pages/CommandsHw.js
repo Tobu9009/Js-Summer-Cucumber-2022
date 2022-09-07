@@ -21,7 +21,9 @@ class CommandsHw{
     async getElementText(locator){
         return await $(locator).getText();
     }
-
+    async scroll(locator){
+        return await $(locator).scrollIntoView();
+    }
     async getElementAttribute(locator, attributeName){
         return await $(locator).getAttribute(attributeName)
     }

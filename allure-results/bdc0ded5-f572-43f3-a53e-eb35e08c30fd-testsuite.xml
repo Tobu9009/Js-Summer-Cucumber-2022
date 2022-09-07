@@ -1,0 +1,180 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662522009544' stop='1662522014669'>
+    <name>Cool Math Games: Verify coolMathGamesDisplays all 26 options after typing ace in search</name>
+    <title>Cool Math Games: Verify coolMathGamesDisplays all 26 options after typing ace in search</title>
+    <test-cases>
+        <test-case start='1662522009545' status='passed' stop='1662522009546'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662522009546' status='passed' stop='1662522012448'>
+            <name>Given I am on cool math games</name>
+            <title>Given I am on cool math games</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662522009548' status='passed' stop='1662522010319'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6d5b87ed-de80-4111-8662-e97beb87e090-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662522010319' status='passed' stop='1662522010445'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='4aaa325f-cf6b-4661-abb4-9a1b56c2c585-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='3904e779-cec1-46db-96ef-a7a706583ebf-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662522012448' status='passed' stop='1662522012515'>
+            <name>When I click on search button</name>
+            <title>When I click on search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662522012449' status='passed' stop='1662522012465'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0d8eb4ca-efb7-41e1-9b7a-522053ba1cbc-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='9131754c-198f-44db-95e4-65424e15eb18-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662522012471' status='passed' stop='1662522012515'>
+                    <name>POST /session/:sessionId/element/dc771d5f-4897-473d-97bc-99e58afd7a8d/click</name>
+                    <title>POST /session/:sessionId/element/dc771d5f-4897-473d-97bc-99e58afd7a8d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662522012515' status='passed' stop='1662522014601'>
+            <name>When I type "ace" in search bar</name>
+            <title>When I type "ace" in search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662522012516' status='passed' stop='1662522012533'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a015a86d-2286-4085-8e53-7a5e0a8388f5-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='7ceca72f-b857-4f50-98b8-d2b1db0c6447-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662522012537' status='passed' stop='1662522012563'>
+                    <name>POST /session/:sessionId/element/a85b28ab-ff10-4c96-9b47-2e1741f25582/clear</name>
+                    <title>POST /session/:sessionId/element/a85b28ab-ff10-4c96-9b47-2e1741f25582/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662522012566' status='passed' stop='1662522012587'>
+                    <name>POST /session/:sessionId/element/a85b28ab-ff10-4c96-9b47-2e1741f25582/value</name>
+                    <title>POST /session/:sessionId/element/a85b28ab-ff10-4c96-9b47-2e1741f25582/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f553ed07-1e58-41fb-9424-1887041c2787-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662522014601' status='broken' stop='1662522014667'>
+            <name>When I verify 26 options are available</name>
+            <title>When I verify 26 options are available</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662522014602' status='passed' stop='1662522014665'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='73ddd748-8e71-4510-b5f9-a87f7ada7c6e-attachment.json' type='application/json' size='124'/>
+                        <attachment title='Response' source='958a7863-6efc-4d50-b209-ccd00550a944-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'waitForEnabled')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'waitForEnabled')
+                    at coolMathGames.verify26 (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\Pages\TestPracticePages\CoolMathGames.js:22:29)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async World.&lt;anonymous> (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\step-definitions\TestPracticeSD\coolMathGamesSD.js:22:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662522014668' status='pending' stop='1662522014668'>
+            <name>Then I click flip palace</name>
+            <title>Then I click flip palace</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662522014668' status='passed' stop='1662522014668'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

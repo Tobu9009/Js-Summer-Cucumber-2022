@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662494192499' stop='1662494197501'>
+    <name>Cool Math Games: Verify coolMathGamesDisplays all 26 options after typing ace in search</name>
+    <title>Cool Math Games: Verify coolMathGamesDisplays all 26 options after typing ace in search</title>
+    <test-cases>
+        <test-case start='1662494192499' status='passed' stop='1662494192501'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662494192501' status='passed' stop='1662494195296'>
+            <name>Given I am on cool math games</name>
+            <title>Given I am on cool math games</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662494192503' status='passed' stop='1662494193155'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3c238fa6-d2d6-4ece-b9f1-21540e53c35e-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662494193156' status='passed' stop='1662494193281'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='c0235833-a573-4f3f-99a4-f1ca3ae161a3-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='10f1f663-a708-40cf-a00b-65422b074df8-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662494195296' status='passed' stop='1662494195359'>
+            <name>When I click on search button</name>
+            <title>When I click on search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662494195298' status='passed' stop='1662494195314'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5aa93660-104c-4b43-ae1d-d0b0a98d8feb-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='aa938c2e-a3a2-4647-a7ef-90bbe2a25e6c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662494195320' status='passed' stop='1662494195358'>
+                    <name>POST /session/:sessionId/element/81cec24f-3eb6-477b-80d3-32781c5f8651/click</name>
+                    <title>POST /session/:sessionId/element/81cec24f-3eb6-477b-80d3-32781c5f8651/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662494195359' status='passed' stop='1662494197495'>
+            <name>When I type "ace" in search bar</name>
+            <title>When I type "ace" in search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662494195360' status='passed' stop='1662494195376'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0a59b76d-2c9a-4432-a4f6-0f349fe7fa54-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='27c520ae-a111-4e17-888a-d27e649a0be2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662494195379' status='passed' stop='1662494195435'>
+                    <name>POST /session/:sessionId/element/3af2750d-d5d1-4b61-841d-4e02145eac4d/clear</name>
+                    <title>POST /session/:sessionId/element/3af2750d-d5d1-4b61-841d-4e02145eac4d/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662494195438' status='passed' stop='1662494195483'>
+                    <name>POST /session/:sessionId/element/3af2750d-d5d1-4b61-841d-4e02145eac4d/value</name>
+                    <title>POST /session/:sessionId/element/3af2750d-d5d1-4b61-841d-4e02145eac4d/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b7486bbd-faec-4420-961c-45a17d583332-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662494197495' status='broken' stop='1662494197500'>
+            <name>When I verify 26 options are available</name>
+            <title>When I verify 26 options are available</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662494197497' status='broken' stop='1662494197500'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b1a46e60-5ef6-4f1c-a4ab-f34ced0efebd-attachment.json' type='application/json' size='124'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: result is not defined</message>
+                <stack-trace>ReferenceError: result is not defined
+                    at coolMathGames.verify26 (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\Pages\TestPracticePages\CoolMathGames.js:22:13)
+                    at World.&lt;anonymous> (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\step-definitions\TestPracticeSD\coolMathGamesSD.js:22:30)
+                    at World.executeAsync (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at World.testFrameworkFnWrapper (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at async wrapPromiseWithTimeout (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\time.js:67:12)
+                    at async Object.run (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:26)
+                    at async TestCaseRunner.invokeStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:237:26)
+                    at async C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:163:48</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662494197501' status='passed' stop='1662494197501'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662580288740' stop='1662580298090'>
+    <name>Go on youtube and twitch: Twitch</name>
+    <title>Go on youtube and twitch: Twitch</title>
+    <test-cases>
+        <test-case start='1662580288741' status='passed' stop='1662580288742'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662580288742' status='passed' stop='1662580290705'>
+            <name>Given I am on youtube</name>
+            <title>Given I am on youtube</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662580288744' status='passed' stop='1662580290705'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fa24adc6-f9c9-4417-85d3-86859e742884-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662580290706' status='passed' stop='1662580291410'>
+            <name>And I type "doug doug peggle" in youtube search bar</name>
+            <title>And I type "doug doug peggle" in youtube search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662580290707' status='passed' stop='1662580290729'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eceaab63-43d0-48e9-abb7-fb2897ef61b5-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='2ae7870f-6f7e-4a1e-a756-501917f7563d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662580290735' status='passed' stop='1662580291275'>
+                    <name>POST /session/:sessionId/element/275c51ca-b5fb-43fb-903c-b83a83885f80/clear</name>
+                    <title>POST /session/:sessionId/element/275c51ca-b5fb-43fb-903c-b83a83885f80/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662580291280' status='passed' stop='1662580291410'>
+                    <name>POST /session/:sessionId/element/275c51ca-b5fb-43fb-903c-b83a83885f80/value</name>
+                    <title>POST /session/:sessionId/element/275c51ca-b5fb-43fb-903c-b83a83885f80/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f08b7478-7821-4b47-bd40-ec820c68d5ad-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662580291410' status='passed' stop='1662580293832'>
+            <name>And I click on youtube search button</name>
+            <title>And I click on youtube search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662580291411' status='passed' stop='1662580291551'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='125afe88-41f8-4d7b-8f75-d1df012fe112-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='8ec816dc-b6a0-4363-b2bc-17f2695be8d5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662580291553' status='passed' stop='1662580291632'>
+                    <name>POST /session/:sessionId/element/69515107-6a28-4d55-a97a-e516df75cf5b/click</name>
+                    <title>POST /session/:sessionId/element/69515107-6a28-4d55-a97a-e516df75cf5b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662580291633' status='passed' stop='1662580291827'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='5bb8c88f-4761-4351-a813-71fd7ec9291d-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='1827e82d-98f9-4e35-b00c-1624b35f55a8-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662580293832' status='passed' stop='1662580295915'>
+            <name>And I click on first suggested video</name>
+            <title>And I click on first suggested video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662580293833' status='passed' stop='1662580293851'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='633b6bba-c089-4cf9-9d95-06cb906b06ab-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='7471f25f-224d-4089-8335-63e581d26072-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662580293853' status='passed' stop='1662580293911'>
+                    <name>POST /session/:sessionId/element/70de3d6b-a525-4dd8-8829-49190553b5b8/click</name>
+                    <title>POST /session/:sessionId/element/70de3d6b-a525-4dd8-8829-49190553b5b8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662580295915' status='passed' stop='1662580298087'>
+            <name>And I click the twitch link</name>
+            <title>And I click the twitch link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662580295916' status='passed' stop='1662580295948'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8cde01ec-1702-4a2b-b0c6-834aa920d7b5-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='a2729b4a-8ebf-493f-b2f5-4eb7c9860bce-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662580295949' status='passed' stop='1662580296072'>
+                    <name>POST /session/:sessionId/element/98c8bc21-c3b5-4054-9451-d1f0ad263608/click</name>
+                    <title>POST /session/:sessionId/element/98c8bc21-c3b5-4054-9451-d1f0ad263608/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662580298087' status='broken' stop='1662580298089'>
+            <name>And I close all windows but twitch</name>
+            <title>And I close all windows but twitch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: ytTwitch.closeWindowAllWindowsButTwitch is not a function</message>
+                <stack-trace>TypeError: ytTwitch.closeWindowAllWindowsButTwitch is not a function
+                    at World.&lt;anonymous> (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\step-definitions\TestPracticeSD\YtTwitchSD.js:42:20)
+                    at World.executeAsync (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at World.testFrameworkFnWrapper (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at async wrapPromiseWithTimeout (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\time.js:67:12)
+                    at async Object.run (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:26)
+                    at async TestCaseRunner.invokeStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:237:26)
+                    at async C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:163:48
+                    at async TestCaseRunner.aroundTestStep (C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:117:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662580298090' status='passed' stop='1662580298090'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
