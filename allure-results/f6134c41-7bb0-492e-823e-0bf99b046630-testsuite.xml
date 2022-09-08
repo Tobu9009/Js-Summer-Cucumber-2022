@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662598835028' stop='1662598835032'>
+    <name>Test3: Darksky2</name>
+    <title>Test3: Darksky2</title>
+    <test-cases>
+        <test-case start='1662598835029' status='passed' stop='1662598835030'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662598835030' status='broken' stop='1662598835031'>
+            <name>Given I am on Darksky homepage</name>
+            <title>Given I am on Darksky homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on Darksky homepage" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on Darksky homepage" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\features\TestPracticeFeature\Test3.feature):1:1
+                	at Scenario(Darksky2):3:5
+                	at Step(I am on Darksky homepage):4:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662598835031' status='passed' stop='1662598835031'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

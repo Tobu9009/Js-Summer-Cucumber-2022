@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662592127073' stop='1662592133954'>
+    <name>Test: Hotels</name>
+    <title>Test: Hotels</title>
+    <test-cases>
+        <test-case start='1662592127073' status='passed' stop='1662592127075'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662592127075' status='passed' stop='1662592129827'>
+            <name>Given I am on hotels landing page</name>
+            <title>Given I am on hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662592127077' status='passed' stop='1662592129826'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9b168ccc-e3f7-462c-bf52-3ebf8288cca9-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662592129827' status='passed' stop='1662592131931'>
+            <name>When I click on hotels rewards</name>
+            <title>When I click on hotels rewards</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662592129829' status='passed' stop='1662592129842'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='90afa1b5-eebe-4b50-9e92-dd918e9bff30-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='5a013ab3-1c43-48c7-bbe6-3d305a009ed2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662592129848' status='passed' stop='1662592129924'>
+                    <name>POST /session/:sessionId/element/1f51a8d0-5e43-40b0-ab60-5d36ce979be8/click</name>
+                    <title>POST /session/:sessionId/element/1f51a8d0-5e43-40b0-ab60-5d36ce979be8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662592131931' status='passed' stop='1662592133952'>
+            <name>And I verify hotels rewards opens in a new window</name>
+            <title>And I verify hotels rewards opens in a new window</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662592131932' status='passed' stop='1662592131936'>
+                    <name>GET /session/:sessionId/window/handles</name>
+                    <title>GET /session/:sessionId/window/handles</title>
+                    <attachments>
+                        <attachment title='Response' source='a19cf769-d576-473c-8940-89b7c447f52c-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662592133952' status='broken' stop='1662592133953'>
+            <name>And I click on join now button</name>
+            <title>And I click on join now button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on join now button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on join now button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\tobuw\Documents\git\Js-Summer-Cucumber-2022\features\TestPracticeFeature\Test.feature):1:1
+                	at Scenario(Hotels):3:5
+                	at Step(I click on join now button):7:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662592133953' status='passed' stop='1662592133953'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

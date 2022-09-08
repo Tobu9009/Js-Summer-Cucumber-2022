@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662591942525' stop='1662591949478'>
+    <name>Test: Hotels</name>
+    <title>Test: Hotels</title>
+    <test-cases>
+        <test-case start='1662591942526' status='passed' stop='1662591942527'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662591942527' status='passed' stop='1662591945379'>
+            <name>Given I am on hotels landing page</name>
+            <title>Given I am on hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662591942529' status='passed' stop='1662591945378'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='67f44997-9182-4a50-b2eb-8f335e98233b-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662591945379' status='passed' stop='1662591947464'>
+            <name>And I click on hotels rewards</name>
+            <title>And I click on hotels rewards</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662591945380' status='passed' stop='1662591945393'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='510d8fb7-1e02-42b9-bc06-01afa02cb965-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='12d87c4b-dbd0-4787-adcc-e47ce3af73c7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662591945398' status='passed' stop='1662591945462'>
+                    <name>POST /session/:sessionId/element/8efa8631-e23d-4a92-9663-81dc0fc193dd/click</name>
+                    <title>POST /session/:sessionId/element/8efa8631-e23d-4a92-9663-81dc0fc193dd/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662591947464' status='passed' stop='1662591949477'>
+            <name>Then I verify hotels rewards opens in a new window</name>
+            <title>Then I verify hotels rewards opens in a new window</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1662591947464' status='passed' stop='1662591947469'>
+                    <name>GET /session/:sessionId/window/handles</name>
+                    <title>GET /session/:sessionId/window/handles</title>
+                    <attachments>
+                        <attachment title='Response' source='177f4b3c-6dfc-4468-860f-e9731f76d57b-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1662591949477' status='passed' stop='1662591949477'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

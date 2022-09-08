@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@data-day=\"0\"]//span[@class=\"minTemp\"]"
+}

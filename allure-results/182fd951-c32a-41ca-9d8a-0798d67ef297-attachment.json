@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"dayDetails revealed\"]//span[@class=\"highTemp swip\"]//span[@class=\"temp\"]"
+}

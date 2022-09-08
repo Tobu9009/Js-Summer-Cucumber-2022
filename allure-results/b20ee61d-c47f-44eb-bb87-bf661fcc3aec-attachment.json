@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"hours\"]//span[contains(text(), \"am\") or contains(text(), \"pm\")]"
+}
