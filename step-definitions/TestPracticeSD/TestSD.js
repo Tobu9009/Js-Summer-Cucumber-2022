@@ -38,3 +38,4 @@ When(/^I verify form is blank$/, async function(){
 When(/^I verify continue button is not enabled$/, async function(){
     expect(await test.verifyContinueButtonIsNotEnabled(), "verify button is enabled").to.be.false
 })
+//
