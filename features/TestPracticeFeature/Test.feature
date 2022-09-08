@@ -7,3 +7,4 @@ Feature: Test
         And I click on join now button
         And I verify form is blank
         Then I verify continue button is not enabled
+#
