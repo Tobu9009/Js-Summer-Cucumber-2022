@@ -17,5 +17,3 @@ When(/^I verify minTemp and todayMinTemp are the same$/, async function(){
 When(/^I verify maxTemp and todayMaxTemp are the same$/, async function(){
     expect(await test.getTodayMaxTemp(), "not same").to.be.equal(await test.getTodayHighTempSwap())
 })
-//
-//
