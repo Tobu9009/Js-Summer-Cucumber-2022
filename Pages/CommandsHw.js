@@ -4,6 +4,7 @@ class CommandsHw{
     async findWebElement(locator) {
         return await $(locator);
     }
+    
 
     /**
      * Generic function to find a webElement
@@ -47,6 +48,10 @@ class CommandsHw{
                 break;
             }
         }
+    }
+    async doesElementExist(locator){
+        const element = await this.findWebElement(locator)
+        return await element.isExisting()
     }
     async isElementDisplayed(locator){
         const element = await this.findWebElement(locator)

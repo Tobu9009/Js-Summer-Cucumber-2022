@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class=\"container\"]//label[@for=\"edit-search-bar\"]"
-}

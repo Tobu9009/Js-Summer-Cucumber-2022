@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@id=\"above-the-fold\"]//yt-formatted-string[contains(text(),\"I speedrun\")]"
-}
