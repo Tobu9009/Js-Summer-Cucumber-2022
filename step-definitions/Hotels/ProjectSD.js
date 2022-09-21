@@ -225,6 +225,7 @@ When(/^I verify plus button is (enabled|disabled)$/, async function(enabledOrDis
                 result = false;
             }
             expect(await result, 'plus button is disabled').to.be.false
+            break;
     }
 })
 
@@ -239,6 +240,7 @@ When(/^I verify minus button is (enabled|disabled)$/, async function(enabledOrDi
                 result = false;
             }
             expect(await result, 'plus button is disabled').to.be.false
+            break;
     }
 })
 
@@ -251,11 +253,3 @@ When(/^I click on children minus button (.+) times$/, async function(value){
 When(/^I verify children age dropdown is not displayed$/, async function(){
     expect(await command.verifyChildrenAgeDropdownIsNotDisplayed(), 'is displayed').to.be.false
 })
-
-// When(/^I verify minus button is enabled$/, async function(){
-//     expect(await command.verifyMinusButtonIsEnabled(), 'minus button disabled').to.be.true
-// })
-
-// When(/^I verify minus button is disabled$/, async function(){
-//     expect(await command.verifyMinusButtonIsEnabled(), 'minus button is enabled').to.be.false
-// })
