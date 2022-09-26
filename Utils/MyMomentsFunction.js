@@ -1,10 +1,13 @@
 const moment = require("moment");
 
 class MyMomentFunctions {
-  static getCurrentDate() {
-    return moment().date();
-  }
+    static getCurrentDate() {
+        return moment().format('D');
+    }
 
-  static addInCurrentDate() {}
+    static getCurrentMomentInFormat(userFormat) {
+        return moment().format(userFormat);
+    }
+
 }
 module.exports = MyMomentFunctions;

@@ -4,6 +4,7 @@ class CommandsHw{
     async findWebElement(locator) {
         return await $(locator);
     }
+    
 
     /**
      * Generic function to find a webElement
@@ -47,6 +48,20 @@ class CommandsHw{
                 break;
             }
         }
+    }
+    async selectAddressFromAutoSuggestion(locatorForAutoSuggestionElements, valueToSelect){
+        const autoSuggestionElements = await this.findWebElements(locatorForAutoSuggestionElements);
+        for(const autoSuggestionElement of autoSuggestionElements){
+            const suggestionText = await autoSuggestionElement.getText();
+            if(suggestionText.toLowerCase().includes(valueToSelect.toLowerCase()) == true){
+                await autoSuggestionElement.click();
+                break;
+            }
+        }
+    }
+    async doesElementExist(locator){
+        const element = await this.findWebElement(locator)
+        return await element.isExisting()
     }
     async isElementDisplayed(locator){
         const element = await this.findWebElement(locator)

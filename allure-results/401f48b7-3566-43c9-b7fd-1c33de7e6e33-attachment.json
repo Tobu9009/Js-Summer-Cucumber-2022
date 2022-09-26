@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//ytd-expander[@id]//div[@class=\"style-scope ytd-expander\"]//a[text()=\"https://bit.ly/DougTwitch\"]"
-}

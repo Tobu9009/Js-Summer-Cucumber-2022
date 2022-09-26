@@ -1,5 +1,3 @@
-const moment = require("moment");
-
 exports.config = {
     //
     // ====================
@@ -7,6 +5,8 @@ exports.config = {
     // ====================
     //
     //
+    user: 'thingy_NjXYhT',
+    key: 'pBj2gpmLxsD7Gj2KmozZ',
     // ==================
     // Specify Test Files
     // ==================
@@ -29,54 +29,37 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
-    //
-    // ============
-    // Capabilities
-    // ============
-    // Define your capabilities here. WebdriverIO can run multiple capabilities at the same
-    // time. Depending on the number of capabilities, WebdriverIO launches several test
-    // sessions. Within your capabilities you can overwrite the spec and exclude options in
-    // order to group specific specs to a specific capability.
-    //
-    // First, you can define how many instances should be started at the same time. Let's
-    // say you have 3 different capabilities (Chrome, Firefox, and Safari) and you have
-    // set maxInstances to 1; wdio will spawn 3 processes. Therefore, if you have 10 spec
-    // files and you set maxInstances to 10, all spec files will get tested at the same time
-    // and 30 processes will get spawned. The property handles how many capabilities
-    // from the same test should run tests.
-    //
     maxInstances: 10,
-    //
-    // If you have trouble getting all important capabilities together, check out the
-    // Sauce Labs platform configurator - a great tool to configure your capabilities:
-    // https://saucelabs.com/platform/platform-configurator
-    //
     capabilities: [{
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
         maxInstances: 5,
-        //
         browserName: 'chrome',
+        'bstack:options':{  
+            os:'Windows',
+            osVersion:'11'
+        },
         acceptInsecureCerts: true
-        // If outputDir is provided WebdriverIO can capture driver session logs
-        // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
     },
     {
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
         maxInstances: 5,
-        //
         browserName: 'firefox',
+        'bstack:options':{  
+            os:'Windows',
+            osVersion:'11'
+
+        },
         acceptInsecureCerts: true
-        // If outputDir is provided WebdriverIO can capture driver session logs
-        // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+    },
+    // {
+    //     maxInstances: 5,
+    //     browserName: 'safari',
+    //     'bstack:options':{  
+    //         os:'OS X',
+    //         osVersion:'Big Sur'
+
+    //     },
+    //     acceptInsecureCerts: true
+    // },
+],
     //
     // ===================
     // Test Configurations
@@ -124,7 +107,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ['browserstack'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -150,7 +133,7 @@ exports.config = {
         outputDir: './report/allure-results',
         disableWebdriverStepsReporting: true,
         useCucumberStepReporter: true,
-        //disableWebdriverScreenshotsReporting: false,
+        disableWebdriverScreenshotsReporting: false,
     }]],
     //
     // If you are using Cucumber you need to specify the location of your step definitions.

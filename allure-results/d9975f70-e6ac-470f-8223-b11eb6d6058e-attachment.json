@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//h2[text()=\"September 2022\"]/following-sibling::table//button[@data-day =\"1\"]"
-}

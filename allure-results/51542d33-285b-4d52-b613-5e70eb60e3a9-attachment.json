@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//h3//legend[text()=\"Search by property name\"]"
-}
