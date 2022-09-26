@@ -19,6 +19,7 @@ When(/^I am on (amazon|hotels|darksky) landing page$/, async function(urlName) {
             await browser.url('/');
             break;
     }
+    await browser.setWindowSize(1900,1080)
 });
 When(/^I click on traveler form$/, async function(){
     await command.clickTravelersForm();
