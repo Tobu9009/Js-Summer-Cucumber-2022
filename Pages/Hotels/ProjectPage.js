@@ -57,11 +57,15 @@ class ProjectPage{
     async clickTravelersForm(){
         await this.commands.clickWebElement(this.travelerFormField)
     }
-    async clickAdultPlusButton(){
-        await this.commands.clickWebElement(this.adultPlusButton)
+    async clickAdultPlusButton(number){
+        for(let i = 0; i < number; i++){
+            await this.commands.clickWebElement(this.adultPlusButton)
+        }
     }
-    async clickChildrenPlusButton(){
-        await this.commands.clickWebElement(this.childrenPlusButton)
+    async clickChildrenPlusButton(number){
+        for(let i=0; i < number; i++){
+            await this.commands.clickWebElement(this.childrenPlusButton)
+        }
     }
     async selectChild1Age(){
         await this.commands.clickWebElement(this.child1AgeBox)
@@ -111,6 +115,7 @@ class ProjectPage{
         await this.commands.clickWebElement(this.signInButton)
     }
     async verifyErrorMessage(){
+        await browser.pause(4000)
         return await this.commands.isElementDisplayed(this.errorMessage)
     }
     async clickOnSignUpButton(){
@@ -179,9 +184,11 @@ class ProjectPage{
         for(const handle of allHandles){
             await browser.switchToWindow(handle);
         }
+        await browser.pause(2000);
     }
     async clickOnFeedBackSubmitButton(){
         await this.commands.clickWebElement(this.feedbackSubmitButton)
+        await browser.pause(2000);
     }
     async verifyEmptyFeedbackErrorIsDisplayed(){
         return await this.commands.isElementDisplayed(this.emptyFeedbackErrorMessage)
@@ -225,8 +232,10 @@ class ProjectPage{
         await browser.pause(2000)
         return await this.commands.isElementEnabled(this.childrenMinusButton);
     }
-    async clickChildrenMinusButton(){
-        await this.commands.clickWebElement(this.childrenMinusButton)
+    async clickChildrenMinusButton(number){
+        for(let i=0; i < number; i++){
+            await this.commands.clickWebElement(this.childrenMinusButton)
+        }
     }
     async verifyChildrenAgeDropdownIsNotDisplayed(){
         return await this.commands.isElementDisplayed(this.child1AgeBox)
